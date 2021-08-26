@@ -36,7 +36,7 @@ public class Computer {
       //  Computer comp = new Computer(true, 550, "Intel Core I7-10700K");
         Computer comp = new Computer(true, 256, "AMD Ryzen 5 3600");
         comp.printInfo(); // вызов метода
-        Computer two = new Computer();
+
 
     }
 }
