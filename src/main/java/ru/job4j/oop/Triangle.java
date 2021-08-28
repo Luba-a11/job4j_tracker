@@ -20,17 +20,19 @@ public class Triangle {
 
     //создаем метод который проверяет существует ли данный треугольник
     public boolean exist (double ab, double ac, double bc) {
-        return ab + ac > bc && ac + bc > ab && ab + bc > ac;
+        return this.first + this.second > this.third &&
+                this.first + this.third > this.second &&
+                this.second + this.third > this.first;
     }
     //метод который расчитывает площадь треугольника
     public double area(){
-        double rsl = Triangle.area();
+        double rsl;
         double ab = first.distance(second);
         double ac = first.distance(third);
         double bc = second.distance(third);
         if (this.exist(ab, ac, bc)) {
             double p = semiPerimeter(ab, ac, bc);
-            double rsl = Math.sqrt(p * (p - this.first) * (p - this.second) * (p - this.third));
+             rsl = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
 
         }
 
