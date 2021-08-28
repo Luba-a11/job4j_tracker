@@ -23,7 +23,7 @@ public class Triangle {
         return ab + ac > bc && ac + bc > ab && ab + bc > ac;
     }
     //метод который расчитывает площадь треугольника
-    public double area(){
+  /*  public double area(){
         double rsl;
         double ab = first.distance(second);
         double ac = first.distance(third);
@@ -34,6 +34,6 @@ public class Triangle {
 
         }
         return rsl;
-    }
+    }*/
 
 }

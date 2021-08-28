@@ -13,7 +13,7 @@ public class Battery {
 
     // создаем конструктор для увеличения заряда
     public void addCharge (Battery another) {
-        another.charge = this.charge + this.add;
+        another.charge += this.charge;
         this.charge = 0;
 
     }
