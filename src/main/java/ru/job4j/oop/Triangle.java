@@ -15,14 +15,12 @@ public class Triangle {
 
     //создаем метод, который вычисляет полупериметр
     public double semiPerimeter(double a, double b, double c) {
-        return ((this.first + this.second + this.third) / 2);
+        return ((a + b + c) / 2);
     }
 
     //создаем метод который проверяет существует ли данный треугольник
     public boolean exist (double ab, double ac, double bc) {
-        return this.first + this.second > this.third &&
-                this.first + this.third > this.second &&
-                this.second + this.third > this.first;
+        return ab + ac > bc && ac + bc > ab && ab + bc > ac;
     }
     //метод который расчитывает площадь треугольника
     public double area(){
@@ -35,7 +33,6 @@ public class Triangle {
              rsl = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
 
         }
-
         return rsl;
     }
 
