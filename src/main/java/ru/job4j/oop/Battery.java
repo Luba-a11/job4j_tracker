@@ -3,12 +3,11 @@ package ru.job4j.oop;
 public class Battery {
     //создаем поле
     private int charge;
-    private int add;
 
     //создаем конструктор для инициализации нач состояния
     public Battery(int size) {
         this.charge = size;
-        this.add = size;
+
     }
 
     // создаем конструктор для увеличения заряда
