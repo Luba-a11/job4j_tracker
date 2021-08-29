@@ -26,10 +26,8 @@ public class Error {
         System.out.println("Грамотность: " + message);
     }
 
-
-
     public static void main(String[] args) {
-        Error error = new Error(true,0, "Высокая, нет ошибок");
+        Error error = new Error(true,5, "Высокая, нет ошибок");
         error.printInfo();
     }
 }

@@ -19,11 +19,11 @@ public class TriangleTest extends TestCase {
     public void testFall() {
         Point a = new Point(0, 0);
         Point b = new Point(4, 0);
-        Point c = new Point(125, 99);
+        Point c = new Point(2, 0);
 
         Triangle triangle = new Triangle(a, b, c);
         double rsl = triangle.area();
-        assertThat(rsl, closeTo(197.9999999, 0.001));
+        assertThat(rsl, closeTo(-1, 0.001));
     }
 
 
