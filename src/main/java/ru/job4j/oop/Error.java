@@ -7,11 +7,11 @@ public class Error {
     private String message;
 
     //явный способ задать конструктор
-   /* public Error() {
+    public Error() {
         active = true;
         status = 0;
         message = "Высокая, нет ошибок";
-    }*/
+    }
 
     //конструктор
     public Error(boolean active, int status, String message) {
@@ -29,7 +29,6 @@ public class Error {
 
 
     public static void main(String[] args) {
-      //  Error error = new Error();
         Error error = new Error(true,0, "Высокая, нет ошибок");
         error.printInfo();
     }
