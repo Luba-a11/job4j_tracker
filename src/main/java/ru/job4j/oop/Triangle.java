@@ -15,7 +15,7 @@ public class Triangle {
 
     //создаем метод, который вычисляет полупериметр
     public double semiPerimeter(double a, double b, double c) {
-        return ((a + b + c) / 2);
+        return (a + b + c) / 2;
     }
 
     //создаем метод который проверяет существует ли данный треугольник
