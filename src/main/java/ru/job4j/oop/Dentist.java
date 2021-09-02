@@ -17,7 +17,7 @@ public class Dentist extends Doctor{
     }
 
     public String getTypeOfproblem() {
-        return this.typeOfproblem
+        return this.typeOfproblem;
     }
 
 }
