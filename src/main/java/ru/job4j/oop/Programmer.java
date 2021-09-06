@@ -2,22 +2,23 @@ package ru.job4j.oop;
 
 public class Programmer extends Engineer {
     //объявление полей
-    private int amoutOfCode;
-    private String nameOfcompany;
+    private int amountOfCode;
 
     //объявление конструктора для инициализации нач значений
-    public Programmer (int amoutOfCode, String nameOfcompany) {
-        this.amoutOfCode = amoutOfCode;
-        this.nameOfcompany = nameOfcompany;
+    public Programmer (String name, String surname, String education, int birthday, int amountOfCode) {
+        super(name, surname, education, birthday);
+        this.amountOfCode = amountOfCode;
+    }
+
+    Programmer(int amountOfCode) {
+        super();
+        this.amountOfCode = amountOfCode;
+
     }
 
     // методы
-    public int getAmoutOfCode() {
-        return this.amoutOfCode;
-    }
-
-    public String getNameOfcompany() {
-        return this.nameOfcompany;
+    public int getAmountOfCode() {
+        return this.amountOfCode;
     }
 
 }

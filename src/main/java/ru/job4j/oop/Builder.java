@@ -3,33 +3,24 @@ package ru.job4j.oop;
 
 public class Builder extends Engineer{
     //инициализация полей
-    private String objectOfBuild;
-    private int yearsOfExperience;
-    private boolean permissionToWork;
+       private boolean permissionToWork;
 
 
     //конструктор для инициализации нач значений
-    public Builder(String objectOfBuild, int yearsOfExperience, boolean permissionToWork) {
-    this.objectOfBuild = objectOfBuild;
-    this.yearsOfExperience = yearsOfExperience;
-    this.permissionToWork = permissionToWork;
+    public Builder(String name, String surname, String education, int birthday, boolean permissionToWork) {
+        super(name, surname, education, birthday);
+        this.permissionToWork = permissionToWork;
     }
 
-
-    //метод возвращает название объекта строительства
-    public String getObjectOfBuild() {
-        return this.objectOfBuild;
-    }
-
-    public int getYearsOfExperience() {
-        return this.yearsOfExperience;
+    Builder(boolean permissionToWork) {
+        super();
+        this.permissionToWork = permissionToWork;
     }
 
     public boolean isPermissionToWork () {
         return this.permissionToWork;
 
     }
-
 
 }
 

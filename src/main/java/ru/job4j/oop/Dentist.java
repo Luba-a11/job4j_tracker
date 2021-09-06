@@ -2,22 +2,27 @@ package ru.job4j.oop;
 
 public class Dentist extends Doctor{
     //поля
-    private int amountOfClien;
-    private String typeOfproblem;
+    private int amountOfClient;
+
 
     //конструктор
-    public Dentist(int amountOfClien, String typeOfproblem) {
-        this.amountOfClien = amountOfClien;
-        this.typeOfproblem = typeOfproblem;
+    public Dentist(String name, String surname, String education, int birthday, int amountOfClient) {
+        super(name, surname, education, birthday);
+        this.amountOfClient = amountOfClient;
+
+    }
+
+    Dentist(int amountOfClient) {
+        super();
+        this.amountOfClient = amountOfClient;
+
     }
 
     //метод возвращает количество клиентов
-    public int getAmountOfClien() {
-        return this.amountOfClien;
+    public int getAmountOfClient() {
+        return this.amountOfClient;
     }
 
-    public String getTypeOfproblem() {
-        return this.typeOfproblem;
-    }
+
 
 }
