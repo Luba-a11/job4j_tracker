@@ -30,9 +30,7 @@ public class Item {
 
     }
 
-    public void setCreated(LocalDateTime created) {
-        this.created = created;
-    }
+    private LocalDateTime created = LocalDateTime.now();
 
     public int getId() {
         return id;
