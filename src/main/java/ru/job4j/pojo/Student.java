@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Student {
     private String fio;
-    private int numberOfgroup;
-    private Date asmissionDate;
+    private String numberOfGroup;
+    private Date admissionDate;
 
     public String getFio() {
         return fio;
@@ -15,19 +15,19 @@ public class Student {
         this.fio = fio;
     }
 
-    public int getNumberOfgroup() {
-        return numberOfgroup;
+    public int getNumberOfGroup() {
+        return numberOfGroup;
     }
 
-    public void setNumberOfgroup(int numberOfgroup) {
-        this.numberOfgroup = numberOfgroup;
+    public void setNumberOfGroup(String numberOfgroup) {
+        this.numberOfGroup = numberOfgroup;
     }
 
-    public Date getAsmissionDate() {
-        return asmissionDate;
+    public Date getAdmissionDate() {
+        return admissionDate;
     }
 
-    public void setAsmissionDate(Date asmissionDate) {
-        this.asmissionDate = asmissionDate;
+    public void setAdmissionDate(Date asmissionDate) {
+        this.admissionDate = asmissionDate;
     }
 }
