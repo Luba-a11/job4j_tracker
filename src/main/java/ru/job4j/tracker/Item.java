@@ -11,10 +11,13 @@ public class Item {
     public Item(){
 
     }
+
     //конструктор с параметром String name,
     public Item(String name) {
+
         this.name = name;
     }
+
     //конструктор с параметрами int id и String name.
     public Item(int id, String name) {
         this.id = id;
@@ -29,8 +32,6 @@ public class Item {
         return created;
 
     }
-
-    private LocalDateTime created = LocalDateTime.now();
 
     public int getId() {
         return id;
