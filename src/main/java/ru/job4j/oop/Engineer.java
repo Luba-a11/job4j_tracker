@@ -13,6 +13,10 @@ public class Engineer extends Profession{
 
     }
 
+    public Engineer(String name, String surname, String education, int birthday) {
+        super();
+    }
+
     //метод возвращает имя специальности
     public String getNameOfspecialisation() {
         return this.nameOfspecialisation;
