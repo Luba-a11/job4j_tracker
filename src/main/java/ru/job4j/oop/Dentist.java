@@ -1,5 +1,6 @@
 package ru.job4j.oop;
 
+/*
 public class Dentist extends Doctor{
     //поля
     private int amountOfClient;
@@ -26,3 +27,4 @@ public class Dentist extends Doctor{
 
 
 }
+*/

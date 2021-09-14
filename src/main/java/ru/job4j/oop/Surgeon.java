@@ -1,5 +1,6 @@
 package ru.job4j.oop;
 
+/*
 public class Surgeon extends Doctor{
     //инициализация полей
        private String namaOfPatient;
@@ -23,3 +24,4 @@ public class Surgeon extends Doctor{
     }
 
 }
+*/

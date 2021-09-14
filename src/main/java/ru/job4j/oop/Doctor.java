@@ -1,5 +1,6 @@
 package ru.job4j.oop;
 
+/*
 public class Doctor extends Profession {
     //поля
     private String nameOfWard;
@@ -25,3 +26,4 @@ public class Doctor extends Profession {
     }
 
 }
+*/

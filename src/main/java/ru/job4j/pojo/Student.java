@@ -2,6 +2,7 @@ package ru.job4j.pojo;
 
 import java.util.Date;
 
+/*
 public class Student {
     private String fio;
     private String numberOfGroup;
@@ -27,7 +28,8 @@ public class Student {
         return admissionDate;
     }
 
-    public void setAdmissionDate(Date asmissionDate) {
-        this.admissionDate = asmissionDate;
+    public void setAdmissionDate(Date admissionDate) {
+        this.admissionDate = admissionDate;
     }
 }
+*/

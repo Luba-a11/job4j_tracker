@@ -1,5 +1,6 @@
 package ru.job4j.oop;
 
+/*
 public class Programmer extends Engineer {
     //объявление полей
     private int amountOfCode;
@@ -22,3 +23,4 @@ public class Programmer extends Engineer {
     }
 
 }
+*/

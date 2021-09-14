@@ -1,6 +1,6 @@
 package ru.job4j.oop;
 
-
+/*
 public class Builder extends Engineer{
     //инициализация полей
        private boolean permissionToWork;
@@ -22,5 +22,5 @@ public class Builder extends Engineer{
 
     }
 
-}
+}*/
 
