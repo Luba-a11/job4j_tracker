@@ -1,5 +1,7 @@
 package ru.job4j.pojo;
 
+import javax.sound.midi.Soundbank;
+
 public class Library {
     public static void main(String[] args) {
         //new objects
@@ -29,6 +31,25 @@ public class Library {
         for (int i = 0; i < books.length; i++) {
             Book bs = books[i];
             System.out.println(bs.getName() + " >>> " + bs.getNumberOfPages());
+        }
+        System.out.println();
+        System.out.println("Переставьте местами книги с индексом 0 и 3");
+        for (int i = 0; i < books.length; i++) {
+            Book bs = books[i];
+            Book temp = books[0];
+            books[0] = books[3];
+            books[3] = temp;
+            System.out.println(bs.getName() + " --- " + bs.getNumberOfPages());
+
+        }
+
+        System.out.println();
+        System.out.println("Добавьте цикл с выводом книг с именем \"Clean code\"");
+        for (int i = 0; i < books.length; i++) {
+            Book bs = books[i];
+            if(books[i] == "Clean code"){
+                System.out.println((bs.getName() + " --- " + bs.getNumberOfPages()));
+            }
         }
 
     }
